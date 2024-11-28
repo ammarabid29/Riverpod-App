@@ -9,7 +9,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // import 'package:riverpod_app/provider_types/state_notifier_provider/start_page.dart';
 // import 'package:riverpod_app/provider_types/change_notifier_provider/start_page.dart';
 
-import 'package:riverpod_app/provider_modifiers/auto_dispose_modifier.dart';
+// import 'package:riverpod_app/provider_modifiers/auto_dispose_modifier.dart';
+import 'package:riverpod_app/provider_modifiers/family_modifier.dart';
 
 void main() {
   runApp(
@@ -45,7 +46,10 @@ class MyApp extends StatelessWidget {
       // home: StartPage(),
 
       // auto_dispose_modifier
-      home: StartCounterScreen(),
+      // home: StartCounterScreen(),
+
+      // family_modifier
+      home: StartFamilyScreen(),
     );
   }
 }

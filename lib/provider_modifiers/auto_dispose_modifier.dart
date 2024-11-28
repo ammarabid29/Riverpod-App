@@ -18,7 +18,7 @@ class StartCounterScreen extends StatelessWidget {
                 MaterialPageRoute(builder: (ctx) => const CounterScreen()));
           },
           child: const Text(
-            "Change Notifier Provider",
+            "Auto Dispose Modifier",
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
