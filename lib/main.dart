@@ -4,7 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // import 'package:riverpod_app/provider_types/basic_provider.dart';
 // import 'package:riverpod_app/provider_types/state_provider.dart';
-import 'package:riverpod_app/provider_types/future_provider/start_page.dart';
+// import 'package:riverpod_app/provider_types/future_provider/start_page.dart';
+import 'package:riverpod_app/provider_types/stream_provider/start_page.dart';
 
 void main() {
   runApp(
@@ -28,6 +29,9 @@ class MyApp extends StatelessWidget {
       // home: CounterWidget(),
 
       // future_provider
+      // home: StartPage(),
+
+      // stream_provider
       home: StartPage(),
     );
   }
